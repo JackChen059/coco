@@ -1,0 +1,238 @@
+/*
+* @Author: Marte
+* @Date:   2017-06-13 09:10:51
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-20 13:50:20
+*/
+.suqre {
+  width: 4px;
+  height: 4px;
+  border: 1px solid blue;
+  margin-top: 11px;
+  margin-right: 5px; }
+
+.know {
+  width: 75px;
+  height: 25px;
+  background: #64b9fa;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 17px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 12px;
+  color: white; }
+
+.topTitle {
+  width: 100%;
+  height: 24px;
+  font-size: 18px; }
+  .topTitle .titleName span {
+    font-size: 24px;
+    color: red; }
+  .topTitle .moreLink span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: red;
+    color: #fff; }
+
+.head {
+  height: 90px;
+  width: 100%; }
+  .head .nav {
+    width: 1000px;
+    margin: 0 auto; }
+    .head .nav .logo {
+      margin-top: 18px; }
+    .head .nav .topTel {
+      width: 440px;
+      height: 40px;
+      padding-top: 20px; }
+      .head .nav .topTel .topLink {
+        padding-right: 30px; }
+        .head .nav .topTel .topLink big {
+          font-size: 20px;
+          color: red; }
+    .head .nav .navLink ul li {
+      font-size: 14px;
+      color: black;
+      float: left;
+      padding: 13px 14px; }
+
+.swiper-container {
+  width: 100%;
+  height: 442px; }
+  .swiper-container img {
+    width: 100%;
+    height: 442px; }
+
+.midShow {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto; }
+  .midShow .prise {
+    margin-top: 56px; }
+    .midShow .prise h1 {
+      font-size: 20px;
+      color: black; }
+    .midShow .prise h2 {
+      font-size: 24px;
+      color: #c4c4c4;
+      padding-bottom: 28px; }
+    .midShow .prise .test {
+      display: flex;
+      justify-content: space-between; }
+    .midShow .prise .service {
+      border-radius: 10px;
+      height: 311px;
+      width: 270px;
+      text-align: center; }
+      .midShow .prise .service p {
+        padding: 16px 0;
+        color: #000; }
+      .midShow .prise .service .serWord {
+        font-size: 12px;
+        color: #4c4c4c;
+        padding: 23px 12px;
+        line-height: 30px; }
+    .midShow .prise .calssic {
+      width: 300px;
+      height: 388px;
+      border: 1px solid #d1d1d1;
+      box-shadow: 0 0 5px gray; }
+      .midShow .prise .calssic p {
+        padding-top: 29px;
+        margin-left: 15px;
+        padding-left: 5px;
+        margin-right: 13px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 14px;
+        color: #64b9fa; }
+      .midShow .prise .calssic img {
+        margin-top: 24px;
+        margin-left: 15px; }
+      .midShow .prise .calssic .clWord {
+        margin-left: 15px;
+        margin-right: 13px;
+        margin-top: 20px;
+        line-height: 30px;
+        padding-bottom: 23px; }
+
+.news {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 10px; }
+  .news .hot {
+    width: 435px; }
+    .news .hot .newsCon {
+      margin-top: 30px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid gray; }
+      .news .hot .newsCon .mainWord {
+        width: 245px; }
+        .news .hot .newsCon .mainWord p {
+          font-weight: 700; }
+        .news .hot .newsCon .mainWord span {
+          line-height: 24px; }
+    .news .hot .newsChoo ul li {
+      line-height: 30px; }
+  .news .job {
+    width: 450px;
+    height: auto; }
+    .news .job table {
+      width: 100%;
+      margin-top: 33px;
+      border-collapse: collapse; }
+      .news .job table tr {
+        width: 100%; }
+        .news .job table tr:nth-child(odd) {
+          background: #f0f0f0; }
+        .news .job table tr td {
+          height: 34px;
+          padding-left: 5px; }
+  .news .customer {
+    width: 1000px;
+    height: auto;
+    margin-top: 18px; }
+    .news .customer ul {
+      margin-top: 40px;
+      margin-bottom: 18px; }
+      .news .customer ul li {
+        float: left;
+        margin-right: 10px; }
+        .news .customer ul li p {
+          width: auto;
+          height: 60px;
+          line-height: 60px; }
+    .news .customer .links .icon {
+      font-family: 'iconfont';
+      margin-top: 18px; }
+      .news .customer .links .icon span {
+        font-size: 14px;
+        color: red; }
+      .news .customer .links .icon .blue {
+        color: blue; }
+      .news .customer .links .icon ul li {
+        float: left;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative; }
+        .news .customer .links .icon ul li:after {
+          display: block;
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 2px;
+          width: 1px;
+          height: 10px;
+          background: black; }
+      .news .customer .links .icon ul li:nth-child(1):after, .news .customer .links .icon ul li:nth-child(2):after {
+        content: "";
+        display: none; }
+
+.foot {
+  width: 100%;
+  height: 326px;
+  background: url(../image/footbg.png); }
+  .foot .foBot {
+    width: 100%;
+    height: 38px;
+    background: rgba(0, 44, 90, 0.4); }
+    .foot .foBot .botNav {
+      width: 1000px;
+      height: 100%;
+      margin: 0 auto;
+      padding-left: 96px; }
+      .foot .foBot .botNav ul li {
+        float: left;
+        padding-right: 48px;
+        line-height: 38px; }
+        .foot .foBot .botNav ul li a {
+          color: #fff; }
+  .foot .foFo {
+    width: 1000px;
+    margin: 0 auto; }
+    .foot .foFo p {
+      margin-top: 20px;
+      line-height: 22px;
+      color: #fff; }
+    .foot .foFo .QR {
+      width: 120px;
+      height: 150px;
+      margin-top: 24px;
+      margin-left: 225px;
+      text-align: center; }
+    .foot .foFo .linkPeo {
+      height: 134px;
+      width: 291px;
+      margin-right: 240px;
+      background: #003e7e;
+      border-radius: 7px;
+      margin-top: 25px; }
+    .foot .foFo .last {
+      margin-top: 40px;
+      margin-left: -240px; }
